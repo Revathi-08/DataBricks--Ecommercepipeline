@@ -1,11 +1,11 @@
-markdown# 🛒 DataBricks E-Commerce Medallion Pipeline
+# DataBricks E-Commerce Medallion Pipeline
 
 End-to-End E-commerce Data Engineering project implemented in **Databricks Lakehouse** using **Medallion Architecture (Bronze → Silver → Gold)**.
 
 > Built by Revathi | Databricks + PySpark + Delta Lake
 
 ### 🏗️ ArchitectureRaw E-commerce Source
-      ↓
+      |
 [ 1_setup ] - Database & Schema Creation
       ↓
 [ Bronze Layer ] - Raw Ingestion (dim & fact)
